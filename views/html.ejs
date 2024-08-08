@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Welcome to homePage
+    
+    <h4>What color is the sky?</h4>
+    <form action="/result" method="POST">
+      <input type="text" name="color" />
+      <button>Go</button>
+    </form>
+
+    <% if (isRaining) { %>
+    <p>It is raining.</p>
+    <% } else { %>
+    <p>It is not raining.</p>
+    <% } %>
+
+</body>
+</html>
